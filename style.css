@@ -23,3 +23,8 @@ td,th{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);verti
 th{color:var(--muted);font-weight:600}
 .stamp{font-family:ui-monospace,Menlo,monospace;color:var(--accent);letter-spacing:.08em}
 footer{margin-top:48px;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:12px 0}
+.grid img{width:100%;border-radius:12px;border:1px solid var(--line)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 4px}
+.pair img{width:100%;border-radius:10px;border:1px solid var(--line)}
+figcaption{color:var(--muted);font-size:14px;margin-bottom:18px}
